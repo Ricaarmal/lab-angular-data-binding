@@ -1,3 +1,9 @@
-<p>
-  food-list works!
-</p>
+<section class="container">
+  
+    <div *ngFor="let food of foods">
+      <div class="item">
+      <img src="{{food.image}}" alt="">
+      <h2>{{food.name}}</h2>
+    </div>
+  </div>
+</section>
